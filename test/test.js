@@ -1,9 +1,23 @@
+import Character from '../src/js/Character';
 import Bowman from '../src/js/Bowman';
 import Swordsman from '../src/js/Swordsman';
 import Magician from '../src/js/Magician';
 import Undead from '../src/js/Undead';
 import Zombie from '../src/js/Zombie';
 import Daemon from '../src/js/Daemon';
+
+test('Creating Character', () => {
+  const character = new Character('Steve Jobszz', 'Barbarian', 80, 0);
+  const expectedData = {
+    name: 'Steve Jobszz',
+    type: 'Barbarian',
+    health: 100,
+    level: 1,
+    attack: 80,
+    protection: 0,
+  };
+  expect(character).toEqual(expectedData);
+})
 
 test('Creating Bowman', () => {
   const character = new Bowman('Steve Bowie');
