@@ -5,12 +5,12 @@ import Undead from './Undead';
 import Zombie from './Zombie';
 import Daemon from './Daemon';
 
-const bowman = new Bowman('Steve Bowie');
-const swordsman = new Swordsman('Joe Sword');
-const magician = new Magician('Penelope Magic');
-const undead = new Undead('Ken Undi');
-const zombie = new Zombie('The Cranberries');
-const daemon = new Daemon('Daemon Tools');
+const bowman = new Bowman('Steve');
+const swordsman = new Swordsman('Joe');
+const magician = new Magician('Penelope');
+const undead = new Undead('Keno');
+const zombie = new Zombie('Cranbe');
+const daemon = new Daemon('Tools');
 
 console.log(bowman);
 console.log(swordsman);
